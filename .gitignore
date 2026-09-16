@@ -1,0 +1,59 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# PyInstaller / Distribution
+dist/
+build/
+*.egg-info/
+*.spec
+
+# Node / Web Tooling (nel caso si usi Vite/npm in futuro)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.parcel-cache/
+
+# File di Sistema Operativo (Windows & macOS)
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Output di Test ed Esportazioni Temporanee
+*.raw.bin
+*.decompressed.bin
+*.strings.txt
+test_*.bin
+test_*.txt
+test_*.json
+
+# Dump binari e relativi output JSON
+# Non ignorare i fixture del progetto: i file di esempio e i json generati
+# vanno tracciati e verificati nel repository.
+# Se serve ignorare file temporanei, farlo in modo esplicito e non globale.
+!202000152008_info_bin
+!202000152008_info_bin.json
+
